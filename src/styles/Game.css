@@ -1,0 +1,25 @@
+.controls {
+	margin: 20px auto;
+}
+
+.btn {
+	margin-right: 10px;
+	width: 20%;
+	max-width: 200px;
+	height: 50px;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: center;
+	border: none;
+	transition: background-color 0.3s;
+	outline: none;
+}
+
+.btn:hover {
+	cursor: pointer;
+	background-color: rgb(238, 235, 43);
+}
+
+.btn:last-child {
+	margin-right: 0;
+}
