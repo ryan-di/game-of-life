@@ -1,0 +1,33 @@
+.tip-container {
+	width: 100%;
+	max-width: 500px;
+}
+
+.tip-content {
+	padding: 10px;
+	border: 3px solid gainsboro;
+}
+
+.btn-container {
+	width: 100%;
+	position: relative;
+}
+
+.btn-close {
+	background-color: rgb(245, 245, 245);
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	border: 3px solid gainsboro;
+	cursor: pointer;
+	outline: none;
+	font-weight: 800;
+}
+
+.btn-close:hover {
+	background-color: green;
+	color: white;
+}
